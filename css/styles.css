@@ -20,7 +20,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 0.17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -62,6 +62,10 @@ body {
 }
 
 .contacts-link:hover {
+    color: #404BBF;
+}
+
+.contacts-link:focus {
     color: #404BBF;
 }
 
@@ -123,7 +127,7 @@ body {
     color: #2E2F42;
 }
 
-.team-list {
+.team-item {
     background-color: #FFFFFF;
 }
 
